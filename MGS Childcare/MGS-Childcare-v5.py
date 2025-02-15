@@ -3,7 +3,7 @@ children throughout the day
 Jade Akinbo
 14/02/25
 v5 - calccost():
-    ⤷ Needs to ask user to enter the number of hours that will be charged
+    ⤷ Needs to ask the user to enter the number of hours that will be charged
 """
 
 names_list = []
@@ -11,10 +11,10 @@ names_list = []
 def welcome():
     """ Function that prints a welcome screen and menu selection """
     print()
-    print("𐙚‧₊˚📒✏️✩ ₊˚☁️⊹♡ Welcome to MGS Childcare 𐙚‧₊˚✏️📒✩ ₊˚☁️⊹♡")
+    print("𐙚‧₊˚📒✏️✩ ₊˚☁️⊹♡ MGS Childcare 𐙚‧₊˚✏️📒✩ ₊˚☁️⊹♡")
     print()
     print("What would you like to do? Please choose your "
-                       "action using its corresponding number below:\n")
+                       "action by entering its corresponding number below:\n")
     print("1 - Drop off a child\n"
           "2 - Pick up a child\n"
           "3 - Calculate cost\n"
@@ -42,17 +42,24 @@ def pickup():
     else:
         print(f"{child_name} is not on the roll")
 
+def calccost():
+    hours = int(input("How many hours would you like to charge for?: "))
+    cost = hours * 12
+    print(f"For one child staying {hours} hours, it costs ${cost}.")
 
 def main():
     """ Main routine """
     while True:
+        total_cost = 0
         choice = welcome()
         if choice == 1:
             dropoff()
-        if choice ==2:
+        elif choice == 2:
             pickup()
+        elif choice == 3:
+            calccost()
         elif choice == 5:
-            print("Thanks for visiting!")
+            print("Goodbye!")
             break
         else:
             print("invalid")
