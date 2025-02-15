@@ -10,6 +10,6 @@ v1 - main(): Main routine function
 """
 
 def main():
-    """ Main Routine """
+    """ Main Rx outine """
     print("Goodbye")
 main()
