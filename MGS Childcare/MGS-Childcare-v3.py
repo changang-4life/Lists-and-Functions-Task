@@ -12,7 +12,7 @@ names_list = []
 def welcome():
     """ Function that prints a welcome screen and menu selection """
     print()
-    print("𐙚‧₊˚📒✏️✩ ₊˚☁️⊹♡ Welcome to MGS Childcare 𐙚‧₊˚✏️📒✩ ₊˚☁️⊹♡")
+    print("𐙚‧₊˚📒✏️✩ ₊˚☁️⊹♡ MGS Childcare 𐙚‧₊˚✏️📒✩ ₊˚☁️⊹♡")
     print()
     print("What would you like to do? Please choose your "
                        "action using its corresponding number below:\n")
@@ -39,7 +39,7 @@ def main():
     if choice == 1:
         dropoff()
     elif choice == 5:
-        print("Thanks for visiting!")
+        print("Goodbye!")
     else:
         print("invalid")
 
