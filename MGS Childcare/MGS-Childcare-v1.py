@@ -11,5 +11,5 @@ v1 - main():
 
 def main():
     """ Main Routine """
-    print("Thanks for visiting!")
+    print("Goodbye!")
 main()
