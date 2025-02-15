@@ -2,10 +2,14 @@
 children throughout the day
 Jade Akinbo
 14/02/25
-v1
+
+v1 - main(): Main routine function
+ ⤷ Contains the main functionality of the program - all functions will be
+ executed here
+ ⤷ Needs to show a "Goodbye" message if the user wants to exit
 """
 
 def main():
-    """ Function that prints a welcome screen and menu selection for user """
-    print("𐙚‧₊˚📒✏️✩ ₊˚☁️⊹♡ Welcome to MGS Childcare 𐙚‧₊˚✏️📒✩ ₊˚☁️⊹♡")
-    
+    """ Main Routine """
+    print("Goodbye")
+main()
