@@ -3,13 +3,13 @@ children throughout the day
 Jade Akinbo
 14/02/25
 
-v1 - main(): Main Routine function
- ⤷ Contains the main functionality of the program - all functions will be
- executed here
- ⤷ Needs to show a "Goodbye" message if the user wants to exit
+v1 - main():
+     ⤷ Contains the main functionality of the program - all functions will be
+     executed within it
+     ⤷ Needs to show a goodbye message if the user wants to exit
 """
 
 def main():
     """ Main Routine """
-    print("Goodbye")
+    print("Thanks for visiting!")
 main()
