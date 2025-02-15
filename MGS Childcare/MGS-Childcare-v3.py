@@ -2,7 +2,9 @@
 children throughout the day
 Jade Akinbo
 14/02/25
-v3 - dropoff(): Main Routine function
+v3 - dropoff():
+    ⤷  Needs to ask user to input name of a child and then confirm that the
+    name has been added to the list
 """
 
 names_list = []
@@ -36,16 +38,9 @@ def main():
     choice = welcome()
     if choice == 1:
         dropoff()
-    elif choice == 2:
-        pickup()
-    elif choice == 3:
-        calccost()
-    elif choice == 4:
-        printroll()
     elif choice == 5:
         print("Thanks for visiting!")
     else:
         print("invalid")
 
-print()
 main()
