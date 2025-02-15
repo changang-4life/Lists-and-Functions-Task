@@ -2,8 +2,8 @@
 children throughout the day
 Jade Akinbo
 14/02/25
-v2 - welcome(): Main routine function
-⤷ Needs to have a welcome screen and present the user with a menu selection
+v2 - welcome():
+    ⤷ Needs to have a welcome screen and present the user with a menu selection
 """
 
 names_list = []
@@ -27,6 +27,5 @@ def welcome():
 def main():
     """ Main Routine """
     choice = welcome()
-
 
 main()
