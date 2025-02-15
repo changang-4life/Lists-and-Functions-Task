@@ -2,7 +2,7 @@
 children throughout the day
 Jade Akinbo
 14/02/25
-v1 - main(): Main routine function
+v3 - dropoff(): Main Routine function
 """
 
 names_list = []
