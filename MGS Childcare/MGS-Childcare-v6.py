@@ -2,7 +2,7 @@
 children throughout the day
 Jade Akinbo
 14/02/25
-v5 - printroll():
+v6 - printroll():
     ⤷ Needs to enable user to check the roll
 """
 
