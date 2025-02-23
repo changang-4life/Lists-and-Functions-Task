@@ -37,6 +37,7 @@ def pickup():
     been taken off the list"""
     if names_list == []:
         print("There are no children on the roll right now")
+
     while names_list != []:
         child_name = input("Please enter the child's name: ")
         if child_name.capitalize() in names_list:
